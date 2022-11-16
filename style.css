@@ -42,9 +42,27 @@ form input {
     padding: 2px;
 }
 
+
+.title h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px 50px 50px 50px;
+}
+
 .city {
+    text-transform: capitalize;
+}
+
+.places .city {
+    margin: 20px;
     box-shadow: 5px 5px 10px 1px #9C9C9C;
-    width: 200px;
+    width: 300px;
     height: 150px;
     text-align: center;
 }
