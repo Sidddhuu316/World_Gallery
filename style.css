@@ -41,3 +41,25 @@ form input {
     height: 30px;
     padding: 2px;
 }
+
+.city {
+    box-shadow: 5px 5px 10px 1px #9C9C9C;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+.city h4 {
+    color: #000;
+    font-size: 20px;
+}
+
+.city a {
+    text-decoration: none;
+}
+
+
+.city img { 
+    width: 100px;
+    height: 100px;
+}
